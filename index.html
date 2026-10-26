@@ -1,1 +1,383 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Maison de Soirée | Luxury Event Planning</title>
+
+  <meta
+    name="description"
+    content="Maison de Soirée creates thoughtfully designed luxury birthdays, private dinners, bridal showers and unforgettable social celebrations."
+  >
+
+  <meta name="theme-color" content="#F5EFE6">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=DM+Sans:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <header class="site-header">
+    <a class="wordmark" href="#home" aria-label="Maison de Soirée home">
+      <span class="wordmark-main">MAISON DE SOIRÉE</span>
+      <span class="wordmark-sub">THE ART OF CELEBRATING</span>
+    </a>
+
+    <button
+      class="menu-toggle"
+      type="button"
+      aria-expanded="false"
+      aria-controls="site-nav"
+      aria-label="Open navigation"
+    >
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+      <a href="#about">Our Philosophy</a>
+      <a href="#experiences">Experiences</a>
+      <a href="#portfolio">Selected Celebrations</a>
+      <a class="nav-cta" href="#inquire">Make an Inquiry <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-image">
+        <img
+          src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=2200&q=85"
+          alt="An elegant candlelit celebration table set for an intimate gathering"
+          fetchpriority="high"
+        >
+      </div>
+
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content">
+        <p class="eyebrow">A BOUTIQUE EVENT PLANNING STUDIO</p>
+
+        <h1>
+          Some moments<br>
+          deserve <em>more.</em>
+        </h1>
+
+        <p class="hero-description">
+          Thoughtfully imagined gatherings, artfully brought to life.
+          For the moments you wish would last a little longer.
+        </p>
+
+        <a class="button button-light" href="#experiences">
+          Discover Our World <span>↗</span>
+        </a>
+      </div>
+
+      <div class="hero-caption">
+        <span>01 / THE ART OF GATHERING</span>
+        <span>PRIVATE CELEBRATIONS · THOUGHTFULLY CURATED</span>
+      </div>
+    </section>
+
+    <section class="intro section-padding" id="about">
+      <div class="section-label">
+        <span>01</span>
+        <span>OUR PHILOSOPHY</span>
+      </div>
+
+      <div class="intro-content">
+        <p class="eyebrow">BEAUTIFULLY CONSIDERED, ALWAYS</p>
+
+        <h2>
+          Not simply an event.<br>
+          A feeling you <em>remember.</em>
+        </h2>
+
+        <p class="intro-copy">
+          We believe the most beautiful celebrations are never just
+          about how a room looks. They are about how it feels to be
+          there. Every detail, from the first invitation to the final
+          candle, is considered with intention.
+        </p>
+
+        <a class="text-link" href="#inquire">
+          A little more about us <span>↗</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="experiences section-padding" id="experiences">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">THE THINGS WORTH CELEBRATING</p>
+          <h2>Made for <em>your moments.</em></h2>
+        </div>
+
+        <p>
+          Distinctly personal celebrations, brought together with
+          creativity, care, and a considered eye.
+        </p>
+      </div>
+
+      <div class="experience-grid">
+        <article class="experience-card">
+          <a class="experience-image" href="#inquire" aria-label="Inquire about milestone celebrations">
+            <img
+              src="https://images.unsplash.com/photo-1530103862676-de8c9debad1d?auto=format&fit=crop&w=1000&q=85"
+              alt="A celebratory gathering with festive details"
+              loading="lazy"
+            >
+            <span class="image-arrow">↗</span>
+          </a>
+          <div class="card-meta">
+            <span>01</span>
+            <span>PERSONAL MILESTONES</span>
+          </div>
+          <h3>Milestone Celebrations</h3>
+          <p>Birthdays, anniversaries, and the extraordinary chapters in between.</p>
+        </article>
+
+        <article class="experience-card">
+          <a class="experience-image" href="#inquire" aria-label="Inquire about intimate gatherings">
+            <img
+              src="https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=1000&q=85"
+              alt="An elegantly arranged table for a special gathering"
+              loading="lazy"
+            >
+            <span class="image-arrow">↗</span>
+          </a>
+          <div class="card-meta">
+            <span>02</span>
+            <span>INTIMATE GATHERINGS</span>
+          </div>
+          <h3>Private Dinners</h3>
+          <p>Thoughtful tablescapes and intimate evenings made to linger.</p>
+        </article>
+
+        <article class="experience-card">
+          <a class="experience-image" href="#inquire" aria-label="Inquire about showers and special occasions">
+            <img
+              src="https://images.unsplash.com/photo-1523438885200-e635ba2c371e?auto=format&fit=crop&w=1000&q=85"
+              alt="Romantic floral details prepared for a special occasion"
+              loading="lazy"
+            >
+            <span class="image-arrow">↗</span>
+          </a>
+          <div class="card-meta">
+            <span>03</span>
+            <span>NEW BEGINNINGS</span>
+          </div>
+          <h3>Showers & Occasions</h3>
+          <p>Bridal showers, baby showers, and beautiful new beginnings.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="statement">
+      <div class="statement-image">
+        <img
+          src="https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?auto=format&fit=crop&w=1800&q=85"
+          alt="Atmospheric lighting at an evening celebration"
+          loading="lazy"
+        >
+      </div>
+
+      <div class="statement-content">
+        <p class="eyebrow">THE MAISON APPROACH</p>
+        <h2>Thoughtful in every detail.<br><em>Effortless in every moment.</em></h2>
+        <p>
+          You bring the reason to celebrate. We bring the vision,
+          the thoughtful details, and the care that lets you be
+          fully present.
+        </p>
+        <a class="button button-outline" href="#inquire">
+          Begin Your Story <span>↗</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="portfolio section-padding" id="portfolio">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">A GLIMPSE INTO OUR WORLD</p>
+          <h2>Selected <em>celebrations.</em></h2>
+        </div>
+        <p>
+          A collection of imagined occasions, each with its own
+          atmosphere, story, and sense of occasion.
+        </p>
+      </div>
+
+      <div class="portfolio-grid">
+        <article class="portfolio-item portfolio-large">
+          <img
+            src="https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?auto=format&fit=crop&w=1500&q=85"
+            alt="An elegant long-table celebration with refined table settings"
+            loading="lazy"
+          >
+          <div class="portfolio-caption">
+            <span>THE INTIMATE DINNER</span>
+            <span>A STUDY IN SOFT LIGHT</span>
+          </div>
+        </article>
+
+        <article class="portfolio-item">
+          <img
+            src="https://images.unsplash.com/photo-1507504031003-b417219a0fde?auto=format&fit=crop&w=1000&q=85"
+            alt="A beautifully styled celebration space"
+            loading="lazy"
+          >
+          <div class="portfolio-caption">
+            <span>THE SPECIAL OCCASION</span>
+            <span>AN EXERCISE IN ELEGANCE</span>
+          </div>
+        </article>
+      </div>
+
+      <p class="portfolio-note">
+        Portfolio imagery and concepts are illustrative examples created
+        for this fictional brand.
+      </p>
+    </section>
+
+    <section class="process section-padding">
+      <div class="section-label">
+        <span>02</span>
+        <span>THE EXPERIENCE</span>
+      </div>
+
+      <div class="process-layout">
+        <div class="process-heading">
+          <p class="eyebrow">FROM FIRST THOUGHT TO FINAL DETAIL</p>
+          <h2>A considered approach.<br><em>A celebration that feels like you.</em></h2>
+        </div>
+
+        <div class="process-list">
+          <article class="process-item">
+            <span>01</span>
+            <div>
+              <h3>The Conversation</h3>
+              <p>We begin with your occasion, your ideas, and the feeling you want to create.</p>
+            </div>
+          </article>
+
+          <article class="process-item">
+            <span>02</span>
+            <div>
+              <h3>The Vision</h3>
+              <p>We shape a considered concept around your style, setting, and priorities.</p>
+            </div>
+          </article>
+
+          <article class="process-item">
+            <span>03</span>
+            <div>
+              <h3>The Celebration</h3>
+              <p>Every detail comes together so you can enjoy the moment you brought to life.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="inquiry section-padding" id="inquire">
+      <div class="inquiry-copy">
+        <p class="eyebrow">YOUR OCCASION, OUR NEXT INSPIRATION</p>
+        <h2>Let's make room<br>for <em>something special.</em></h2>
+        <p>
+          Tell us a little about what you're celebrating.
+          We'd love to hear what you have in mind.
+        </p>
+
+        <div class="inquiry-detail">
+          <span>THE FIRST STEP</span>
+          <p>A thoughtful conversation begins here.</p>
+        </div>
+      </div>
+
+      <form class="inquiry-form" id="inquiry-form">
+        <div class="form-heading">
+          <span>01 / A NOTE TO THE MAISON</span>
+          <p>Share a few details about your occasion.</p>
+        </div>
+
+        <div class="form-row">
+          <div class="form-field">
+            <label for="name">Your name</label>
+            <input id="name" name="name" type="text" autocomplete="name" required>
+          </div>
+
+          <div class="form-field">
+            <label for="email">Email address</label>
+            <input id="email" name="email" type="email" autocomplete="email" required>
+          </div>
+        </div>
+
+        <div class="form-field">
+          <label for="event-type">What are we celebrating?</label>
+          <select id="event-type" name="event-type" required>
+            <option value="">Select an occasion</option>
+            <option>Birthday or milestone</option>
+            <option>Private dinner</option>
+            <option>Bridal shower</option>
+            <option>Baby shower</option>
+            <option>Anniversary</option>
+            <option>Something else</option>
+          </select>
+        </div>
+
+        <div class="form-field">
+          <label for="event-date">Your ideal date</label>
+          <input id="event-date" name="event-date" type="date">
+        </div>
+
+        <div class="form-field">
+          <label for="details">Tell us about your vision</label>
+          <textarea
+            id="details"
+            name="details"
+            rows="4"
+            placeholder="The occasion, the atmosphere, the little details..."
+            required
+          ></textarea>
+        </div>
+
+        <button class="button button-dark" type="submit">
+          Send Your Inquiry <span>↗</span>
+        </button>
+
+        <p class="form-message" id="form-message" role="status" aria-live="polite"></p>
+
+        <p class="form-disclaimer">
+          Fictional portfolio project. This demonstration form does not
+          send or store personal information.
+        </p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-top">
+      <a class="footer-wordmark" href="#home">MAISON DE SOIRÉE</a>
+      <p>Extraordinary gatherings,<br>thoughtfully imagined.</p>
+      <a class="back-to-top" href="#home">BACK TO TOP ↑</a>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> MAISON DE SOIRÉE</span>
+      <span>AN INDEPENDENT CONCEPT FOR A FICTIONAL BRAND</span>
+      <span>MADE WITH INTENTION.</span>
+    </div>
+  </footer>
+</body>
+</html>
+
